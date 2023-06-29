@@ -42,4 +42,10 @@ public class ItemProduto implements ExibirInterface{
     public long getId(){
         return id;
     }
+    /*
+    @Override
+    public void exibir(boolean completo){
+        
+    }
+    */
 }

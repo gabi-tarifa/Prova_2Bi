@@ -8,7 +8,7 @@ public class Orcamento implements ExibirInterface{
     private double valorTotal;
 
     public Orcamento(){
-        this.id = idBase;
+        this.id = idBase/*++*/;
     }
 
     public double getValorTotal(){
@@ -29,4 +29,11 @@ public class Orcamento implements ExibirInterface{
     public void removeItem(ItemProduto id){
         lista.remove(id);
     }
+
+    /*
+    @Override
+    public void exibir(boolean completo){
+        
+    }
+    */
 }

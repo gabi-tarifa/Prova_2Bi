@@ -26,4 +26,10 @@ public class Produto extends Orcamento implements ExibirInterface{
             
         }
     }
+    /*
+    @Override
+    public void exibir(boolean completo){
+        
+    }
+    */
 }
